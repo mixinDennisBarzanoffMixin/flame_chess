@@ -10,11 +10,11 @@
 		</data>
 		<key>Resources/flutter_assets/AssetManifest.bin</key>
 		<data>
-		21tVqbIV90TbglF4ZJhNBz8uj4w=
+		fPLwWBdxWHXxLeFkM2SKDhAaNn8=
 		</data>
 		<key>Resources/flutter_assets/AssetManifest.json</key>
 		<data>
-		vyGp6PvFo4RvsFtPoIWeCReyIC8=
+		5Wc7bAkppsEnwGLgySny1y+AHRw=
 		</data>
 		<key>Resources/flutter_assets/FontManifest.json</key>
 		<data>
@@ -28,13 +28,61 @@
 		<data>
 		re4p7E8rPLLsN+wzaPN/+AVpXTY=
 		</data>
+		<key>Resources/flutter_assets/assets/images/DarkBishop.webp</key>
+		<data>
+		yAw7q+jIrhMqmZaW4Q7ZPkXOj30=
+		</data>
+		<key>Resources/flutter_assets/assets/images/DarkKing.webp</key>
+		<data>
+		d+BytytKoNm+4YdvzftEavWCHKo=
+		</data>
+		<key>Resources/flutter_assets/assets/images/DarkKnight.webp</key>
+		<data>
+		atyeNJL/zVwE/lr58t7Zh6kBwiM=
+		</data>
+		<key>Resources/flutter_assets/assets/images/DarkPawn.png</key>
+		<data>
+		XdS7ORxPO7gjeGIqKeGEvy7VSfc=
+		</data>
+		<key>Resources/flutter_assets/assets/images/DarkQueen.webp</key>
+		<data>
+		InQpkP45JyG6Z0Wp2VUNgSFfOjw=
+		</data>
+		<key>Resources/flutter_assets/assets/images/DarkRook.webp</key>
+		<data>
+		+J1M9Xsl8bNO0ueohVxZ3sRB9Lo=
+		</data>
+		<key>Resources/flutter_assets/assets/images/LightBishop.webp</key>
+		<data>
+		Q2MLKm9yzRwF23VlnkD9gfR7WvE=
+		</data>
+		<key>Resources/flutter_assets/assets/images/LightKing.webp</key>
+		<data>
+		jH8sgHUple9Oi2leYPtLwXOrvEw=
+		</data>
+		<key>Resources/flutter_assets/assets/images/LightKnight.webp</key>
+		<data>
+		e0VOniQZHHL6HBHvmmzp1hif5lk=
+		</data>
+		<key>Resources/flutter_assets/assets/images/LightPawn.webp</key>
+		<data>
+		BUxF441mCTXuvFblkzzglNVITBU=
+		</data>
+		<key>Resources/flutter_assets/assets/images/LightQueen.webp</key>
+		<data>
+		G2aDisuR0Rjqum+a/NdpqVe2lu8=
+		</data>
+		<key>Resources/flutter_assets/assets/images/LightRook.webp</key>
+		<data>
+		s7MBlzT4/Z/XMedjCJ18jcjdhVU=
+		</data>
 		<key>Resources/flutter_assets/isolate_snapshot_data</key>
 		<data>
 		MLsvCS4XptKDlqINU6Io1Ezltu8=
 		</data>
 		<key>Resources/flutter_assets/kernel_blob.bin</key>
 		<data>
-		nUQ9Lt/ObJC8nsBjqyoT2YxuLbo=
+		E2K4koZTmRFUqsclBRbrxx3ut+Y=
 		</data>
 		<key>Resources/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -58,14 +106,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9WbMb8zGVzZcAZeszzp9b4D4Ugn/Zm/3dPTcvFJKqEI=
+			UZdRsdtjs7O6y/hb5l9dXAFkOp4ZmFUn6eIKhW0jGPk=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RBNvo1WzZ4oRRq0W9+hknpT7T8If536DEMBg9hyq/4o=
+			5D02oAveES8UmU6XmfabHeTW7Y09pkWq58cGqlYoQtA=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/FontManifest.json</key>
@@ -89,6 +137,90 @@
 			lUijHkoEgTXB2U+Rkyi/tirix7s8q5ZVfHlB2ql3dss=
 			</data>
 		</dict>
+		<key>Resources/flutter_assets/assets/images/DarkBishop.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4wQs5BZCgMYfXYoq4afumySR6d5FiCwQSD+yselWDqE=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/DarkKing.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hKnvmmbwxdkBHpMqAN4aQPczcskTha2b5Idl9mTmm0U=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/DarkKnight.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DV3Jsk7bwTdTKjzomPTKWHJLoRfacp1WTX58ZWNcnVw=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/DarkPawn.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/r1B62yqHPh4AYY4eA+zUFqNpWOylA8N3DwytFMdUI4=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/DarkQueen.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VJjt0JLK+F4ycsjAqzcVRFxP/e1GdOAQKx8KFOVaohQ=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/DarkRook.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/cOfuCLckd44SEe0h6WZqYLTdDLChcGmfRXKSYjuTq4=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/LightBishop.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sWFjIdrz4oHIJv/V2OpdLbAD3G9nI/vlcfUTk/vH+bA=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/LightKing.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8B87bCZoPo1OfvzYg7LJ51XQWwFh6e4UKVC6fvxKJiE=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/LightKnight.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			55KbJ8WB7ZsR6wKBcweneq0dRCq146eEnnF0YVbwZB0=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/LightPawn.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FZ17p4d4TrfUycD2pv06pL+U4rcQdSimjvZImicyrZg=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/LightQueen.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ou8Ik/tfC8q95TXesJvz9vUF8QllXwFdxrDUn1Dk8Yw=
+			</data>
+		</dict>
+		<key>Resources/flutter_assets/assets/images/LightRook.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S/oo6TMuJNkJKJ/P14bBH0bJt65XhiWo6hAs4YkioDs=
+			</data>
+		</dict>
 		<key>Resources/flutter_assets/isolate_snapshot_data</key>
 		<dict>
 			<key>hash2</key>
@@ -100,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WvbBjOE0mpAkL3nNB3UwEVfSbBPK6vzBD56Qng4y7aE=
+			/SPCm5XB7LNruq/oV7qapffBg7+bqiIBknOVJqMxZUk=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/shaders/ink_sparkle.frag</key>

@@ -1,10 +1,10 @@
 {
   "roots": [
-    "syzygy"
+    "flame_chess"
   ],
   "packages": [
     {
-      "name": "syzygy",
+      "name": "flame_chess",
       "version": "0.0.0",
       "dependencies": [
         "flame",

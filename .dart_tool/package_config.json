@@ -56,7 +56,7 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "syzygy",
+      "name": "flame_chess",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"

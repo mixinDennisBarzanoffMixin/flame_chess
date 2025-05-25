@@ -1,5 +1,5 @@
-name: syzygy
-description: Syzygy Flame game
+name: flame_chess
+description: Chess game made with Flame
 version: 0.0.0
 publish_to: none
 
@@ -11,3 +11,18 @@ dependencies:
   flutter:
     sdk: flutter
   flame: ^1.29.0
+
+flutter:
+  assets:
+    - assets/images/DarkBishop.webp
+    - assets/images/DarkKing.webp
+    - assets/images/DarkKnight.webp
+    - assets/images/DarkPawn.png
+    - assets/images/DarkQueen.webp
+    - assets/images/DarkRook.webp
+    - assets/images/LightBishop.webp
+    - assets/images/LightKing.webp
+    - assets/images/LightKnight.webp
+    - assets/images/LightPawn.webp
+    - assets/images/LightQueen.webp
+    - assets/images/LightRook.webp
