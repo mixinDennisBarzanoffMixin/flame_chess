@@ -8,9 +8,31 @@
       "version": "0.0.0",
       "dependencies": [
         "flame",
-        "flutter"
+        "flame_riverpod",
+        "flutter",
+        "riverpod"
       ],
       "devDependencies": []
+    },
+    {
+      "name": "riverpod",
+      "version": "2.6.1",
+      "dependencies": [
+        "collection",
+        "meta",
+        "stack_trace",
+        "state_notifier"
+      ]
+    },
+    {
+      "name": "flame_riverpod",
+      "version": "5.4.15",
+      "dependencies": [
+        "flame",
+        "flutter",
+        "flutter_riverpod",
+        "riverpod"
+      ]
     },
     {
       "name": "flame",
@@ -36,14 +58,18 @@
       ]
     },
     {
-      "name": "vector_math",
-      "version": "2.1.4",
-      "dependencies": []
+      "name": "state_notifier",
+      "version": "1.0.0",
+      "dependencies": [
+        "meta"
+      ]
     },
     {
-      "name": "ordered_set",
-      "version": "8.0.0",
-      "dependencies": []
+      "name": "stack_trace",
+      "version": "1.12.1",
+      "dependencies": [
+        "path"
+      ]
     },
     {
       "name": "meta",
@@ -53,6 +79,27 @@
     {
       "name": "collection",
       "version": "1.19.1",
+      "dependencies": []
+    },
+    {
+      "name": "flutter_riverpod",
+      "version": "2.6.1",
+      "dependencies": [
+        "collection",
+        "flutter",
+        "meta",
+        "riverpod",
+        "state_notifier"
+      ]
+    },
+    {
+      "name": "vector_math",
+      "version": "2.1.4",
+      "dependencies": []
+    },
+    {
+      "name": "ordered_set",
+      "version": "8.0.0",
       "dependencies": []
     },
     {
@@ -70,6 +117,11 @@
     {
       "name": "characters",
       "version": "1.4.0",
+      "dependencies": []
+    },
+    {
+      "name": "path",
+      "version": "1.9.1",
       "dependencies": []
     }
   ],

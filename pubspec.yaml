@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   flame: ^1.29.0
+  flame_riverpod: ^5.4.15
+  riverpod: ^2.6.1
 
 flutter:
   assets:
