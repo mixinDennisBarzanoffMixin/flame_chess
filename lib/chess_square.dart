@@ -37,9 +37,13 @@ class ChessSquare extends Component with TapCallbacks, RiverpodComponentMixin {
 
   @override
   void onTapDown(TapDownEvent event) {
-    addToGameWidgetBuild(() {
-      ref.read(chessState.notifier).state = square;
-    });
+    print('onTapDown');
+    ref.read(chessState.notifier).state = square;
     super.onTapDown(event);
+  }
+
+  @override
+  bool containsLocalPoint(Vector2 point) {
+    return point.x >= 0 && point.x <= 100 && point.y >= 0 && point.y <= 100;
   }
 }
