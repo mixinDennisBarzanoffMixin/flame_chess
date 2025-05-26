@@ -2,22 +2,15 @@ import 'dart:async';
 
 import 'package:flame/components.dart';
 import 'package:flame_chess/chess_square.dart';
-import 'package:flame_chess/chess_state.dart';
 import 'package:flame_chess/constants.dart';
-import 'package:flame_riverpod/flame_riverpod.dart';
+import 'package:flame_chess/domain/entities/square.dart';
 
-class ChessBoard extends Component with RiverpodComponentMixin {
+class ChessBoard extends Component {
   ChessBoard() {}
 
   @override
   FutureOr<void> onLoad() {
     _buildBoard();
-    addToGameWidgetBuild(() {
-      ref.listen(chessState, (previous, next) {
-        _buildBoard();
-        print('build board');
-      });
-    });
   }
 
   void _buildBoard() {

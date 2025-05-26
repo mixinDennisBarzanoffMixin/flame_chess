@@ -4,15 +4,15 @@ version: 0.0.0
 publish_to: none
 
 environment:
-  sdk: ^3.0.0
+  sdk: ^3.2.0
   flutter: ^3.13.0
 
 dependencies:
   flutter:
     sdk: flutter
   flame: ^1.29.0
-  flame_riverpod: ^5.4.15
-  riverpod: ^2.6.1
+  flutter_bloc: ^9.1.1
+  flame_bloc: ^1.12.13
 
 flutter:
   assets:

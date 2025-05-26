@@ -1,12 +1,11 @@
 import 'package:flame/components.dart';
 import 'package:flame/events.dart';
-import 'package:flame_chess/chess_state.dart';
-import 'package:flame_riverpod/flame_riverpod.dart';
+import 'package:flame_chess/domain/entities/square.dart';
 import 'package:flutter/material.dart';
 
-class ChessSquare extends Component with TapCallbacks, RiverpodComponentMixin {
+class ChessSquare extends Component with TapCallbacks {
   bool isLight;
-  Square square;
+  Square? square;
   ChessSquare({required this.isLight, required this.square}) {}
 
   @override
@@ -16,29 +15,36 @@ class ChessSquare extends Component with TapCallbacks, RiverpodComponentMixin {
         Paint()
           ..style = PaintingStyle.fill
           ..color = isLight ? Color(0xffEBECD0) : Color(0xff779556));
-    const squares = {
-      1: 'A',
-      2: 'B',
-      3: 'C',
-      4: 'D',
-      5: 'E',
-      6: 'F',
-      7: 'G',
-      8: 'H'
-    };
-    final name = '${squares[square.x].toString()}${square.y}';
-    final textPainter = TextPainter(
-        text: TextSpan(text: name, style: const TextStyle(color: Colors.black)),
-        textDirection: TextDirection.ltr);
-    textPainter.layout();
-    textPainter.paint(canvas, Offset(0, 0));
+    if (square != null) {
+      const squares = {
+        1: 'A',
+        2: 'B',
+        3: 'C',
+        4: 'D',
+        5: 'E',
+        6: 'F',
+        7: 'G',
+        8: 'H'
+      };
+      final name = '${squares[square!.x]!.toString()}${square!.y}';
+      final textPainter = TextPainter(
+          text:
+              TextSpan(text: name, style: const TextStyle(color: Colors.black)),
+          textDirection: TextDirection.ltr);
+      textPainter.layout();
+      textPainter.paint(canvas, Offset(0, 0));
+    }
     super.render(canvas);
+  }
+
+  @override
+  void onMount() {
+    super.onMount();
   }
 
   @override
   void onTapDown(TapDownEvent event) {
     print('onTapDown');
-    ref.read(chessState.notifier).state = square;
     super.onTapDown(event);
   }
 
