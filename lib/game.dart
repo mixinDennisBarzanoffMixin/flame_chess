@@ -17,8 +17,8 @@ class ChessGame extends FlameGame {
         children: [
           ChessBoard(),
           PositionComponent(
-            position: Vector2(squareSize * 4, squareSize * 6),
-            size: Vector2(squareSize, squareSize),
+            position: Vector2(SQUARE_SIZE * 4, SQUARE_SIZE * 6),
+            size: Vector2(SQUARE_SIZE, SQUARE_SIZE),
             children: [
               AlignComponent(
                 alignment: Anchor.center,

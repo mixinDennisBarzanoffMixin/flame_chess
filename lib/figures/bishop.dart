@@ -9,7 +9,7 @@ class Bishop extends SpriteComponent with ChessPiece, TapCallbacks {
   Bishop({required this.isLight}) {}
   @override
   Future<void> onLoad() async {
-    size = Vector2(squareSize * 0.8, squareSize * 0.8);
+    size = Vector2(SQUARE_SIZE * 0.8, SQUARE_SIZE * 0.8);
     sprite =
         await Sprite.load(isLight ? 'LightBishop.webp' : 'DarkBishop.webp');
     super.onLoad();

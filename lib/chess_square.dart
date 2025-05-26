@@ -1,12 +1,18 @@
 import 'package:flame/components.dart';
 import 'package:flame/events.dart';
+import 'package:flame_bloc/flame_bloc.dart';
+import 'package:flame_chess/chess_bloc.dart';
+import 'package:flame_chess/constants.dart';
 import 'package:flame_chess/domain/entities/square.dart';
 import 'package:flutter/material.dart';
 
-class ChessSquare extends Component with TapCallbacks {
+class ChessSquare extends Component
+    with TapCallbacks, FlameBlocReader<ChessBloc, ChessState> {
   bool isLight;
-  Square? square;
-  ChessSquare({required this.isLight, required this.square}) {}
+  Square square;
+  bool showText;
+  ChessSquare(
+      {required this.isLight, required this.square, required this.showText}) {}
 
   @override
   void render(Canvas canvas) {
@@ -15,18 +21,8 @@ class ChessSquare extends Component with TapCallbacks {
         Paint()
           ..style = PaintingStyle.fill
           ..color = isLight ? Color(0xffEBECD0) : Color(0xff779556));
-    if (square != null) {
-      const squares = {
-        1: 'A',
-        2: 'B',
-        3: 'C',
-        4: 'D',
-        5: 'E',
-        6: 'F',
-        7: 'G',
-        8: 'H'
-      };
-      final name = '${squares[square!.x]!.toString()}${square!.y}';
+    if (showText) {
+      final name = '${SQUARES[square.x]}${square.y}';
       final textPainter = TextPainter(
           text:
               TextSpan(text: name, style: const TextStyle(color: Colors.black)),
@@ -45,6 +41,7 @@ class ChessSquare extends Component with TapCallbacks {
   @override
   void onTapDown(TapDownEvent event) {
     print('onTapDown');
+    bloc.selectSquare(square!);
     super.onTapDown(event);
   }
 

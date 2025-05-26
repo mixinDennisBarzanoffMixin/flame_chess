@@ -3,6 +3,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ChessBloc extends Cubit<ChessState> {
   ChessBloc() : super(ChessState(selectedSquare: null));
+
+  void selectSquare(Square square) {
+    emit(ChessState(selectedSquare: square));
+  }
 }
 
 class ChessState {
